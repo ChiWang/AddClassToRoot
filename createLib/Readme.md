@@ -15,8 +15,8 @@ Description
 Usage
 --------------
 
-  scons       // will create executable file sharedLibRootcint at ./, and temporary files in ./Scons
-  scons -c    // clean up
+    scons       // will create executable file sharedLibRootcint at ./, and temporary files in ./Scons
+    scons -c    // clean up
 
 
 Note
