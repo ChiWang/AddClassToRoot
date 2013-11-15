@@ -13,10 +13,10 @@ Description
 Usage
 --------------
 
-  scons       // will create executable file uselibDmpEvtBgoTest at ./, and temporary files in ./Scons
-  scons -c    // clean up
+    scons       // will create executable file uselibDmpEvtBgoTest at ./, and temporary files in ./Scons
+    scons -c    // clean up
 
-  execute the created file "libDmpEvtTest_Read"
+    execute the created file "libDmpEvtTest_Read"
 
 
 Note
