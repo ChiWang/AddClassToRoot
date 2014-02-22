@@ -14,6 +14,8 @@ Description
 
 Usage
 --------------
+    create dictionary
+        bash createDictionary.sh    // will generate *_Dict* files in ./include and ./src
 
     scons       // will create executable file sharedLibRootcint at ./, and temporary files in ./Scons
     scons -c    // clean up
