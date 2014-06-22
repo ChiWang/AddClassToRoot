@@ -21,7 +21,7 @@ int main(){
 
   TFile *aFile = new TFile("../Database/DmpRDCTest.root");
 
-  TTree *aTree = (TTree*)aFile->Get("DAMPEEvent");
+  TTree *aTree = (TTree*)aFile->Get("Event/DAMPEEvent");
   aTree->SetBranchAddress("DstEvent",&EvtHolder);        // key
 
   Int_t N = aTree->GetEntries();

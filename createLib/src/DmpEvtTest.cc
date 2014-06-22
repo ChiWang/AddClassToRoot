@@ -30,6 +30,10 @@ void DmpEvtTest::SetSignal(Int_t b, Int_t c, Int_t d){
 
 void DmpEvtTest::PrintEvent()const{
   std::cout<<"Event ID = "<<fEventID<<"\tParticle ID = "<<fParticleID<<"\tEnergy = "<<fEnergy<<std::endl;
+  for(std::map<short,int>::const_iterator it=fTrigger.begin();it!=fTrigger.end();++it){
+    std::cout<<" Det ID = "<<it->first<<" trg = "<<it->second;
+  }
+  std::cout<<std::endl;
 }
 
 
